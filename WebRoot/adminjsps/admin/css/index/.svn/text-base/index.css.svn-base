@@ -1,0 +1,99 @@
+#copyright{
+	width:100%;
+	height:100%;
+	background:rgb(240,144,144);
+	border-bottom-style:2px solid rgb(29,160,43);
+}
+
+*{
+	font-size:14px;
+	list-style:none;
+	
+}
+
+body {
+	font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB",
+		\5FAE\8F6F\96C5\9ED1, tahoma, simsun, \5b8b\4f53;
+}
+
+#ul {
+	padding: 0px;
+	margin: 0px;
+	font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB",
+		\5FAE\8F6F\96C5\9ED1, tahoma, simsun, \5b8b\4f53;
+}
+
+#ul li {
+	list-style: none;
+	font-size: 16px;
+}
+
+#ul li a:hover {
+	background-color: red;
+	color: white;
+}
+
+#ul li a {
+	padding: 5px 0 5px 40px;
+	text-decoration: none;
+	color: #293846;
+	background:rgb(241,241,241);
+	display: block;
+}
+
+
+#head-contain{
+	font-size:30px;
+    width:100%;
+    height:60px;
+}
+
+#head-contain img{
+	margin-top:6px;
+	margin-left:8px;
+	margin-right:8px;
+	display:inline-block;
+	float:left;
+}
+
+#appname span{
+	display:inline-block;
+	font-size:35px;
+	line-height:60px;
+	float:left;
+	margin-left:9px;
+	color:rgb(249,253,249);
+}
+
+
+
+
+#admin-img{
+	width:60px;
+	height:60px;
+	float:right;
+}
+
+#admin-img img{
+	display:block;
+	width:47px;
+	height:47px;
+	border-radius:30px;
+	margin-bottom:25px;
+}
+
+
+
+#admin-menu {
+	width:55px;
+	height:55px;
+	float:right;
+	margin-right:10px;
+	padding-right:35px;
+}
+
+#admin-menu a{
+	margin-top:18px;
+}
+
+

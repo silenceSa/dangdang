@@ -1,0 +1,64 @@
+8
+
+dir
+18
+https://iversen:8443/svn/dangdang/WebRoot/adminjsps/admin
+https://iversen:8443/svn/dangdang
+
+
+
+2017-06-03T03:50:28.972472Z
+16
+youngboy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8b7a794f-a19c-2348-86e7-2e6947c15d77
+
+admin.jsp
+file
+20
+
+
+
+2017-06-04T14:01:24.948000Z
+a8b44b176ef4dc9cc1b5deeaece11bd3
+2017-06-04T14:16:31.931252Z
+20
+youngboy
+
+category
+dir
+
+comment
+dir
+
+css
+dir
+
+customer
+dir
+
+images
+dir
+
+js
+dir
+
+order
+dir
+
+product
+dir
+

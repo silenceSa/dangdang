@@ -1,0 +1,309 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>订单页面</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<link id="easyuiTheme" rel="stylesheet" type="text/css" 
+	href="adminjsps/admin/js/jquery-easyui-1.3.6/themes/metro-red/easyui.css" />
+    <link rel="stylesheet" type="text/css"
+	href="adminjsps/admin/js/jquery-easyui-1.3.6/themes/icon.css" />
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/jquery.min.js"></script>
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/jquery.easyui.min.js"></script>
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/locale/easyui-lang-zh_CN.js"></script>
+	<script type="text/javascript" src="adminjsps/admin/js/jquery-easyui-1.3.6/plugins/datagrid-detailview.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	   var url = $('body').parent('iframe').context.URL;
+		var method = url.split('=')[1];
+		var orderId;
+
+		var order = $('#table');
+		order.datagrid({
+			view: detailview,
+	detailFormatter:function(index,row){
+		return '<div class="ddv" style="padding:5px 0"></div>';
+	},
+	onExpandRow: function(index,row){
+	    $.get('admin/OrderController', { biz: "findDetail", id: row.orderId } );
+		var ddv = $(this).datagrid('getRowDetail',index).find('div.ddv');
+		ddv.panel({
+			border:false,
+			cache:false,
+			href:'admin/content/orderDetail.jsp',
+			onLoad:function(){
+				$('#table').datagrid('fixDetailRowHeight',index);
+			}
+		});
+		$('#table').datagrid('fixDetailRowHeight',index);
+	},
+			url : 'admin/OrderController?biz=' + method,
+			fit : true,
+			striped : true,// 条纹
+			loadMsg : '加载中...',
+			scrollbarSize : 0,// 滚动条宽度
+			fitColumns : true,// 自动展开/收缩列
+			rownumbers : true,// 显示一个行号列
+			pagination : true,// 分页工具栏
+			pageNumber : 1,// 初始化页码
+			pageSize : 10,// 初始化页大小
+			pageList : [ 5, 10, 15, 20, 25, 30 ],
+			//绑定网格中的列
+			columns : [ [ {
+				checkbox : true
+			}, {
+				field : 'orderId',
+				title : '订单编号'
+			}, {
+				field : 'totalPrice',
+				title : '订单金额'
+			}, {
+				field : 'orderTime',
+				title : '下单时间'
+			}, {
+				field : 'orderStatus',
+				title : '订单状态',
+				formatter : function(value, rowData, rowIndex) {
+					if (rowData.status == '1') {
+						return '未付款';
+					} else if (rowData.status == '2') {
+						return '已付款';
+					} else if (rowData.status == '3') {
+						return '已发货';
+					} else if (rowData.status == '4') {
+						return '交易成功';
+					} else {
+						return value;
+					}
+				}
+			}, {
+				field : 'address',
+				title : '收货地址',
+				formatter : function(value, rowData, rowIndex) {
+					if (rowData.address) {
+						return rowData.address.addressName;
+					} else {
+						return value;
+					}
+				}
+			}, {
+				field : 'consignee',
+				title : '收件人',
+				formatter : function(value, rowData, rowIndex) {
+					if (rowData.address) {
+						return rowData.address.receiver;
+					} else {
+						return value;
+					}
+				}
+			}, {
+				field : 'recPhone',
+				title : '联系方式',
+				formatter : function(value, rowData, rowIndex) {
+					if (rowData.address) {
+						return rowData.address.mobile;
+					} else {
+						return value;
+					}
+				}
+			}, {
+				field : 'customerId',
+				title : '下单用户'
+			} ] ],
+			//工具栏
+			toolbar : [ {
+				text : '删除',
+				iconCls : 'icon-remove',
+				//处理方法
+				handler : function() {
+					remove();
+				}
+			}, {
+				text : '发货',
+				//处理方法
+				handler : function() {
+					fahuo();
+				}
+			} ],
+		});
+
+		function fahuo() {
+			var rows = order.datagrid('getSelections');// 获得选中的行
+			if (rows.length == 1) {
+				if (rows[0].status == 2) {
+					orderId = rows[0].orderId;
+					$('#dialog').css('display', 'block');
+					$('#dialog').dialog({
+						title : '发货信息',
+						width : 350,
+						height : 350,
+						modal : true
+					});
+
+					$('#wuliue').combobox({
+						required : true,
+						data : [ {
+							"id" : 1,
+							"text" : "申通快递",
+							"selected" : true
+						}, {
+							"id" : 2,
+							"text" : "圆通快递"
+						}, {
+							"id" : 3,
+							"text" : "韵达快递"
+						}, {
+							"id" : 4,
+							"text" : "顺丰快递"
+						} ],
+						valueField : 'id',
+						textField : 'text',
+						missingMessage : '请选择物流!'
+					});
+
+					$('#addressName').val(rows[0].address.addressName);
+					$('#receiver').val(rows[0].address.receiver);
+					$('#mobile').val(rows[0].address.mobile);
+
+				} else if (rows[0].status == 1) {
+					$.messager.alert('提示', '未付款的订单不能发货!');
+				} else if (rows[0].status == 3) {
+					$.messager.alert('提示', '订单已经发货了!');
+				} else if (rows[0].status == 4) {
+					$.messager.alert('提示', '订单已经交易成功了!');
+				}
+
+			} else if (rows.length == 0) {
+				$.messager.show({
+					title : '消息',
+					msg : '请选择要发货的订单!'
+				});
+			} else {
+				$.messager.show({
+					title : '消息',
+					msg : '只能选择一个订单!'
+				});
+			}
+		}
+
+		/**
+		 *	删除用户
+		 */
+		function remove() {
+			var rows = order.datagrid('getSelections');// 获得选中的行
+			if (rows.length > 0) {
+				$.messager.confirm('请确认', '确定删除当前所选行?', function(r) {
+					if (r) {
+						var ids = [];
+						for ( var i = 0; i < rows.length; i++) {
+							ids.push(rows[i].orderId);// 向数组中添加一个元素
+						}
+						$.ajax({
+							url : 'admin/OrderServlet?method=removeOrder',
+							dataType : 'json',
+							data : {
+								orders : ids.join(',')
+							},
+							success : function(response) {
+								// 根据响应结果的 state 判断操作是否成功, 提示不同的信息
+								if (response.state) {
+									$.messager.show({
+										title : '消息',
+										msg : '删除成功!',
+									});
+									order.datagrid('load');// 重新加载数据
+								} else {
+									$.messager.alert('提示', response.message, 'error');
+								}
+								order.datagrid('unselectAll');// 取消所有行的选中
+							}
+						});
+					}
+				});
+			} else {
+				$.messager.alert('提示', '请选择删除的记录!', 'warning');
+			}
+		}
+
+		$('#button').click(function() {
+			$.ajax({
+				url : 'admin/OrderServlet?method=updateOrderstatus',
+				dataType : 'json',
+				data : {
+					orderId : orderId
+				},
+				success : function(response) {
+					// 根据响应结果的 state 判断操作是否成功, 提示不同的信息
+					if (response.state) {
+						$('#dialog').dialog('close');
+						$.messager.show({
+							title : '消息',
+							msg : '发货成功!',
+						});
+						order.datagrid('load');// 重新加载数据
+					} else {
+						$.messager.alert('提示', response.message, 'error');
+					}
+					order.datagrid('unselectAll');// 取消所有行的选中
+				}
+			});
+		});	
+	});
+	
+	</script>
+  </head>
+  
+  <body>
+    <table id="table"></table>
+     <div id="dialog" style="display:none;">
+		<form id="myForm">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<label for="">物流: </label>
+						<input type="text" name="wuliue" id="wuliue" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="">收货地址: </label>
+						<input type="text" name="addressName" id="addressName" style="width: 220px;" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="">收件人: </label>
+						<input type="text" name="receiver" id="receiver" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="">联系方式: </label>
+						<input type="text" name="mobile" id="mobile" />
+					</td>
+				</tr>
+			</table>
+			<div id="buttons">
+				<input type="button" id="button" value="确认发货" style="width: 66px;" />
+				<input type="reset" id="cancel" value="取消" />
+			</div>
+		</form>
+	</div> 
+    
+  </body>
+</html>

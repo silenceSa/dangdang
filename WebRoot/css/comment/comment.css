@@ -1,0 +1,630 @@
+@charset "utf-8"; 
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	z-index: 3
+}
+
+.clear {
+	font-size: 0;
+	clear: both
+}
+
+img {
+	border: 0
+}
+
+#product_report {
+	padding: 0 8px 0 20px;
+	background: #fff;
+	width: 670px;
+	font-family: Tahoma, Geneva, sans-serif
+}
+
+.product_report a {
+	text-decoration: none;
+	color: #ed145b
+}
+
+#product_report li,#product_report ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 2
+}
+
+#reportwrap .deal_con_content {
+	line-height: 20px;
+	width: 665px
+}
+
+#product_report .grey {
+	color: #919191;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px
+}
+
+#product_report_title {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/deal/1/deal_reviews.jpg)
+		no-repeat;
+	height: 50px;
+	padding-bottom: 10px
+}
+
+.product_report_ranks {
+	height: 110px;
+	margin: 5px 0 0 0
+}
+
+.rp_score_l {
+	float: left;
+	height: 80px;
+	padding-right: 5px;
+	margin-top: 5px;
+	width: 150px
+}
+
+.rp_score_l .tit {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333
+}
+
+#product_report .record_num {
+	clear: both;
+	line-height: 38px;
+	font-size: 20px;
+	color: #ed145b;
+	margin: 0 0 0 6px;
+	_margin: 0 0 10px 3px;
+	font-family: tahoma, arial, sans-serif;
+	font-weight: bold;
+	float: left
+}
+
+.rp_score_l p {
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	clear: both;
+	color: #333
+}
+
+.rp_score_l p span {
+	color: #ed145b
+}
+
+.rp_score_l .rating {
+	margin: 0 0 0 5px
+}
+
+.rp_score_c {
+	float: left;
+	position: relative;
+	margin: 0 5px 0 5px;
+	font-size: 12px
+}
+
+.rp_histogram {
+	width: 154px;
+	float: left;
+	margin: 0 10px 0 0;
+	overflow: hidden
+}
+
+.rp_histogram dd {
+	clear: left;
+	float: left;
+	height: 17px;
+	padding-left: 16px;
+	position: relative;
+	width: 115px;
+	margin: 5px 0 12px 0;
+	font-size: 12px
+}
+
+.rp_histogram dd span {
+	position: absolute;
+	height: 15px;
+	top: 0
+}
+
+.rp_histogram dd span.icon_red,.rp_histogram dd span.icon {
+	line-height: 15px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/9/profileIndex.png)
+		-17px -40px;
+	color: #fff;
+	font-weight: bold;
+	height: 17px;
+	left: 0;
+	text-align: center;
+	width: 16px
+}
+
+.rp_histogram .progress_wrap {
+	border: 1px solid #f9d7e2;
+	height: 15px;
+	position: absolute;
+	width: 112px;
+	font-size: 12px
+}
+
+.rp_histogram .bg {
+	background: none repeat scroll 0 0 #f9d7e2
+}
+
+.rp_histogram dd .txt,.rp_histogram .bg {
+	height: 15px;
+	left: 0;
+	line-height: 14px;
+	text-indent: 6px;
+	font-size: 12px;
+	color: #333
+}
+
+.rp_histogram dt {
+	clear: right;
+	float: right;
+	margin: 5px 0 12px 3px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+	width: 20px
+}
+
+.rp_score_r {
+	float: left;
+	height: 100px;
+	padding-left: 20px;
+	width: 140px;
+	border-left: 1px solid #ecebeb
+}
+
+.rp_score_r p {
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333
+}
+
+.report_share_btn {
+	margin-top: 10px
+}
+
+.report_share_btn a,a.all_reports_btn {
+	display: block;
+	width: 92px;
+	height: 32px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/deal/1/pink_mid_btn.jpg)
+		no-repeat
+}
+
+.report_share_btn a:hover {
+	text-decoration: none
+}
+
+.product_report_filters {
+	margin-bottom: 20px;
+	_zoom: 1;
+	height: 32px;
+	z-index: 3
+}
+
+.product_report_tab {
+	float: left;
+	height: 32px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.product_report_tab a {
+	float: left;
+	display: block;
+	padding: 0 8px;
+	height: 32px;
+	line-height: 32px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	color: #797979;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/deal/1/deal_report_filter.jpg)
+		repeat-x;
+	font-size: 12px
+}
+
+.product_report_tab span {
+	color: #ed145b
+}
+
+.product_report_tab a:hover {
+	background-position: 0 -32px;
+	text-decoration: none
+}
+
+.product_report_tab .selected {
+	background-position: 0 -64px;
+	color: #fff
+}
+
+.product_report_tab .selected:hover {
+	background-position: 0 -64px;
+	color: #fff
+}
+
+.product_report_tab .last {
+	border-right: 0
+}
+
+.report_attr_select {
+	float: left;
+	position: relative;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 10px 0 0 5px;
+	z-index: 102
+}
+
+.report_attr_select .arrow {
+	display: block;
+	float: left;
+	height: 22px;
+	width: 20px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/deal/1/deal_report_arrow.jpg)
+		no-repeat 0 0 transparent
+}
+
+.report_attr_select .age_text {
+	float: left;
+	padding: 0 10px;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	width: 84px
+}
+
+.report_attr_select ul {
+	position: absolute;
+	top: 23px;
+	left: -1px;
+	z-index: 101;
+	width: 125px;
+	border: 1px solid #ccc;
+	border-top: 0;
+	background: #fff;
+	display: none
+}
+
+.report_attr_select ul a {
+	display: block;
+	color: #333;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	padding-left: 10px
+}
+
+.report_attr_select ul a:hover {
+	text-decoration: none;
+	background: #797979;
+	color: #fff
+}
+
+#product_report {
+	margin-top: -1px;
+	overflow: hidden;
+	float: left
+}
+
+#reports_list_wrap li {
+	border-top: 1px dashed #bfbfbf;
+	float: left;
+	margin-bottom: 17px;
+	padding-top: 17px;
+	position: relative;
+	margin-top: -1px;
+	width: 670px
+}
+
+.pfTrends .arrow {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/index.png)
+		no-repeat -497px -143px;
+	height: 9px;
+	left: 0;
+	margin: 8px 0 0 54px;
+	overflow: hidden;
+	position: absolute;
+	width: 6px;
+	z-index: 101
+}
+
+.pfTrends .avatar {
+	float: left
+}
+
+.avatar img {
+	height: 45px;
+	width: 45px
+}
+
+.pfTrends .re_valuable {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/valuable.png)
+		no-repeat;
+	height: 48px;
+	position: absolute;
+	width: 35px;
+	z-index: 999;
+	right: 2px;
+	top: 17px
+}
+
+.pfTrends .report {
+	border: 1px solid #fbd0de;
+	border-radius: 2px 2px 2px 2px;
+	float: left;
+	font-size: 12px;
+	margin-left: 14px;
+	overflow: hidden;
+	position: relative;
+	width: 605px;
+	z-index: 2
+}
+
+.report .user_info {
+	background: #fef1f5;
+	clear: both;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	padding: 0 0 0 15px;
+	word-wrap: break-word
+}
+
+.report .user_info span {
+	margin-right: 5px;
+	color: #666;
+	float: left
+}
+
+.report .user_info .user_name {
+	color: #ed145b;
+	line-height: 30px
+}
+
+.report .user_info .vip_icon {
+	margin-top: 4px;
+	float: left;
+	height: 22px;
+	margin-right: 5px;
+	width: 22px;
+	border: 0 none;
+	display: block
+}
+
+.report .user_info span {
+	color: #666;
+	float: left
+}
+
+.report .rating_wrap {
+	float: right;
+	margin: 8px 36px 8px 0;
+	right: 36px
+}
+
+.deal_con_content .rating {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/rating_small.png)
+		repeat-x 0 -77px;
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;
+	width: 80px
+}
+
+.deal_con_content .rating .value {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/rating_small.png)
+		repeat-x 0 -63px;
+	height: 15px;
+	overflow: hidden;
+	width: 48px
+}
+
+.report .report_content {
+	padding: 10px 15px
+}
+
+.report a.tit {
+	color: #ec195b;
+	font-family: 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑';
+	font-size: 16px;
+	font-weight: 700
+}
+
+.report .thumbImgList {
+	overflow: hidden;
+	padding: 10px 0;
+	width: 570px
+}
+
+.report .thumbImgList img {
+	border: 1px solid #ccc;
+	float: left;
+	height: 100px;
+	margin-right: 10px;
+	width: 100px;
+	display: block
+}
+
+.report .desc {
+	clear: both;
+	color: #636363;
+	line-height: 18px;
+	margin-top: 5px;
+	word-break: break-all;
+	word-wrap: break-word
+}
+
+.report .desc a {
+	color: #636363;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	font-size: 14px
+}
+
+.report .desc a:hover {
+	color: #ff4482;
+	text-decoration: none
+}
+
+.report .gray_f1 {
+	color: #999;
+	padding-top: 10px
+}
+
+.pfTrends .txtL {
+	float: left
+}
+
+.pfTrends em {
+	margin: 0 6px
+}
+
+.deal_con_content em {
+	font-style: normal
+}
+
+.deal_con_content .cl {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+
+.deal_con_content .redtxt {
+	color: #ed145b;
+	font-weight: bold
+}
+
+.deal_con_content .reda {
+	color: #ed145b
+}
+
+.deal_con_content .reda:hover {
+	color: #ed145b;
+	text-decoration: underline
+}
+
+#pageSplit {
+	padding: 20px 0;
+	padding-left: 97px;
+	clear: both
+}
+
+#pageSplit:after {
+	clear: both
+}
+
+#pageSplit a,#pageSplit span {
+	width: auto;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #bbb;
+	text-decoration: none;
+	background: #fafafa;
+	color: #333;
+	overflow: hidden;
+	font-size: 12px;
+	width: 25px
+}
+
+#pageSplit .prev,#pageSplit .next {
+	width: auto;
+	padding: 0 9px
+}
+
+#pageSplit a:hover {
+	border: 1px solid #e42f6b;
+	background-color: #f9f9f9;
+	color: #e42f6b;
+	text-decoration: none
+}
+
+#pageSplit span {
+	background: #e42f6b;
+	border: 1px solid #e42f6b;
+	color: #FFF;
+	text-decoration: none
+}
+
+a.all_reports_btn {
+	width: auto;
+	background-repeat: repeat-x;
+	float: right;
+	padding: 0 10px;
+	margin-top: -50px
+}
+
+.ligth_blue {
+	color: #008ae1;
+	white-space: nowrap
+}
+
+.user_level {
+	float: left
+}
+
+.user_level span {
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/deal/1/user_lvl_icons.png)
+		no-repeat
+}
+
+.user_level .platinum {
+	background-position: -30px 0
+}
+
+.user_level .diamond {
+	background-position: -60px 0
+}
+
+.rp_score_l .rating {
+	background-position: 0 -45px;
+	clear: both;
+	margin-bottom: 10px;
+	_margin-top: -10px;
+	_margin-left: 3px
+}
+
+.rp_score_l .rating .value {
+	background-position: 0 -30px
+}

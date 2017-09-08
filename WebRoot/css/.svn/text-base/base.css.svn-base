@@ -1,0 +1,41 @@
+/*
+基本样式表，用于设定元素的公共属性
+*/
+body, html {
+    color: #333;
+    font-family: arial,tahoma,宋体;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+ul,ol,body,p,html{
+	margin:0px;
+	padding:0px;
+}
+
+ul,ol,li{
+	list-style-type:none;
+}
+
+img{
+	display:block; /*所有的img标签未做特殊说明，都变成块元素*/
+}
+
+a,iframe,input,select{
+	outline:0 none;
+}
+
+a{
+	text-decoration:none; /*去掉超链接的下划线*/
+}
+a:link{
+    color:black;
+}
+
+a:hover{
+    color:orange;
+}
+
+a:active{
+    text-decoration:underline;
+}

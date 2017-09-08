@@ -1,0 +1,661 @@
+body{
+	background: #f5f5f5;
+}
+
+#container {
+	width: 100%;
+	height:4800px;
+}
+
+#header {
+	width: 100%;
+	height: 150px;
+	word-spacing: 20px;
+	background: #FFFFFF;
+}
+
+#top {
+	width: 87%;
+	height: 100px;
+	padding: 40px;
+	margin: 0 0 30px;
+	background: #fff;
+	margin: auto;
+}
+
+#main {
+	width: 100%;
+	height: 2200px;
+}
+
+#center {
+	width: 60%;
+	height: 2200px;
+	float: left;
+	background: #f5f5f5;
+	margin-left: 40px;
+}
+
+#left {
+	width: 36%;
+	height: 1400px;
+	float: right;
+}
+
+#tone {
+	width: 92%;
+	height: 210px;
+	background: #fff;
+	margin: 0 0 10px;
+}
+
+#button {
+	width: 92%;
+	height: 2030px;
+	background: #FFFFFF;
+}
+
+h2 {
+	font-size: 18px;
+	color: #757575;
+	font-weight: normal;
+	padding: 2;
+	margin: 0;
+}
+
+#potion {
+	margin-top: 14px;
+	font-size: 0;
+}
+
+.item-cur {
+	border-color: #ff6700;
+	background: #ff6700;
+	color: #fff;
+	display: inline-block;
+	width: 168px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	margin: 0 20px 0 0;
+	font-size: 14px
+}
+
+.item {
+	display: inline-block;
+	width: 168px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	margin: 0 20px 0 0;
+	font-size: 14px;
+	color: #B0B0B0;
+	border: 1px solid #eee;
+	background: #f5f5f5;
+	transition: all 0.2s;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.item:link {
+	background: #E8E8E8
+} /* 未访问的链接 */
+a.item:visited {
+	background: #f5f5f5
+} /* 已访问的链接 */
+a.item:hover {
+	background: #E8E8E8
+} /* 鼠标移动到链接上 */
+a.item:active {
+	background: #ff6700
+} /* 选定的链接 */
+#comment-top {
+	position: relative;
+}
+
+#text {
+	height: 40px;
+	line-height: 40px;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 22px;
+	color: #616161;
+	font-weight: normal;
+}
+
+#show-img {
+	position: absolute;
+	right: 5px;
+	top: 15px;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+
+#iconfont {
+	vertical-align: -2px;
+	margin-right:15px;
+	margin-top:10px;
+}
+
+#percent-num {
+	font-size: 14px;
+	color: #b0b0b0;
+	padding-top: 55px;
+	padding-left: 30px
+}
+
+#m-num {
+	font-size: 60px;
+	color: #ff6700;
+}
+
+#percent-box {
+	margin-top: 35px;
+	margin-left: 33px;
+	width: 78%;
+	height: 22px;
+	background: #f1f2f6;
+}
+
+#percent {
+	width: 97.5%;
+	height: 22px;
+	background: #83c44e;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+#news {
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #616161;
+}
+
+.sort {
+	width: 82%;
+	height: 720px;
+	position: relative;
+	padding: 40px 40px 46px 103px;
+	margin-bottom: 15px;
+	background: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+.user-img {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.user-name {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #8d665a;
+}
+
+.comment-eval {
+	right: 50px;
+	top: 30px;
+	position: absolute;
+	font-size: 16px;
+	color: #ff7b33;
+}
+
+#iconfont {
+	font-size: 26px;
+	color: #ff7b33;
+	font-size: 26px;
+	vertical-align: -5px;
+}
+
+.time {
+	height: 20px;
+	line-height: 20px;
+	margin-top: 6px;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+
+#comment-text {
+	margin-top: 35px;
+	color: #5e5e5e;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#comment-text a {
+	color: #616161;
+}
+
+.list-img {
+	margin-top: 14px;
+}
+
+#img-one {
+	width: 330px;
+	height: 330px;
+	position: relative;
+	float: left;
+	margin: 0 8px 8px 0;
+	overflow: hidden;
+	cursor: pointer;
+	display: block;
+}
+
+.comment-input {
+	margin-top: 14px;
+	position: relative;
+}
+
+input {
+	width: 520px;
+	padding: 10px 0 10px 20px;
+	height: 46px;
+	line-height: 23px;
+	font-size: 14px;
+	outline: none;
+	color: #b0b0b0;
+	border: 1px solid #e0e0e0;
+	margin-top: 38px;
+	font-family: sans-serif;
+}
+
+#btn {
+	color: #757575;
+	border: 1px solid #e0e0e0;
+	border-left: none;
+	transition: all .2s ease-out;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+
+.cont-item {
+	margin-top: 46px;
+}
+
+.img-item {
+	position: relative;
+	margin-bottom: 30px;
+	padding-left: 40px;
+}
+
+#img {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+
+#texts {
+	margin-bottom: 3px;
+	font-size: 14px;
+	color: #ff6700;
+}
+
+.comment-more{
+	text-align: center;	
+	width: 100%;
+height: 45px;
+background: #fff;
+}
+.more{
+
+margin-top: 15px;
+line-height: 45px;
+font-size: 14px;
+color: #ff6700;
+	
+	
+}
+/*----------------------------------------
+最新评论
+------------------------------------------*/
+.spe-top {
+	color: #b0b0b0;
+	padding-top: 32px;
+	padding-left: 20px;
+}
+
+.spe-text {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #757575;
+}
+
+.spe-list {
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-width: 85%;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 5% auto auto auto;
+}
+
+a.writing:link {
+	color: #757575;
+} /* 未访问的链接 */
+a.writing:visited {
+	color: #757575;
+} /* 已访问的链接 */
+a.writing:hover {
+	color: #ff6700
+} /* 鼠标移动到链接上 */
+a.writing:active {
+	color: #757575;
+} /* 选定的链接 */
+.comment-handle {
+	padding-top: 12px;
+	padding-left: 20px;
+	margin-top: 8px;
+}
+
+#return-top{
+position: fixed;
+bottom: 0;
+left: 50%;
+margin-left: 193px; display:none;
+}
+/*----------------------------------------
+评论详情
+------------------------------------------*/
+
+.model{
+position:relative;
+bottom:4500px;
+width: 879px;
+height: 490px;
+margin-top: 100px;
+margin-left:210px;
+z-index:2000;
+display: none;
+}
+.close{
+	
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 0;
+    height: 31px;
+    opacity: 0.5;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    transition: opacity 0.2s ease 0s;
+    width: 31px;
+    z-index: 99;
+}
+
+
+.photo-box{
+
+position: relative;
+padding-right: 330px;
+min-width: 550px;
+min-height: 550px;
+top: 0;
+left: 0;
+
+}
+.photo-wrap{
+position: relative;
+z-index: 9;
+	
+}
+.img-wrap{
+height:100%;
+position: relative;
+min-width: 550px;
+overflow: hidden;
+background: #000;
+}
+.BigImg{
+width: 550px;
+margin-top: 100px;
+display: block;;
+}
+
+.comment-area{
+
+position: absolute;
+right: 0;
+top: 0;
+bottom:60px;
+width: 290px;
+padding: 20px;
+background: #fff;
+}
+.user-info{
+position: relative;
+height: 47px;
+padding-left: 60px;
+}
+.user-ava{
+position: absolute;
+left: 0;
+top: 0;
+}
+.names{
+	color: #733b28;
+}
+.times{
+	color: #b0b0b0;
+}
+.writ{
+margin-top: 14px;
+font-size: 14px;
+color: #616161;
+}
+.image{
+	margin-top: 16px;
+}
+.img-src{
+	width: 90px;
+height: 90px;
+max-height:90px;
+max-width:90px;
+margin: 0 4px 4px 0;
+
+}
+.showimg-img{
+	
+	border: 1px solid #ff6700;
+}
+.answer-area{
+	
+padding-top: 16px;
+margin-top: 14px;
+border-top: 1px solid #e0e0e0;
+}
+.office{
+	font-size: 15px;
+color: #ff6700;
+}
+.writing{
+	margin-top: 14px;
+font-size: 14px;
+color: #757575;
+	
+}
+
+.model-backgroup{
+	
+	height: 33864px;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+     opacity: 0.5;
+    transition: opacity 0.15s linear 0s;
+    display:none;
+    
+}
+
+/*----------------------------------------
+添加评论
+------------------------------------------*/
+#whole{
+	width:100%;
+	height:1000px;
+    background:#f5f5f5;
+}
+#coping{
+width:100%;
+height:120px;
+background:#fff;
+}
+#between{
+	width:80%;
+	height:450px;
+	background:#fff;
+	margin-left:120px;
+	margin-top:15px;
+}
+#foot {
+ width:100%;
+ height:300px;
+ margin-top:100px;
+ background:#fff;
+	
+}
+#route{
+ font-size:13px;
+ color: #616161;
+ padding-left:85px;
+ margin-top:15px;
+ margin-left:30px;
+}
+#brief {
+width:30%;
+	height:450px;
+	backgroound:blue;	
+	float:left;
+}
+#picture {
+	
+margin-left:10px;
+padding-top:10px;
+}
+#name{
+  padding-left:10px;
+  font-size:14px;
+  	
+}
+#price{
+ padding-left:105px;
+ font-size:12px;
+ color:#ff6700;
+}
+#comm{
+color:#b0b0b0;
+font-size:12px;
+padding-left:95px;
+}
+#right{
+  width:70%;
+  height:180px;
+ float:right;	
+ padding-top:10px;
+ margin-top:10px;
+}
+#grade{
+ width:100%;
+ height:50px;
+
+}
+#fill{
+width:80%;
+height:200px;
+}
+#import{
+ 	width: 500px;
+	height: 50px;
+	line-height: 23px;
+	font-size: 14px;
+	outline: none;
+	color: #b0b0b0;
+	border: 2px solid #e0e0e0;
+	font-family: sans-serif;
+	border-radius: 5%;
+	cursor: pointer;
+}
+#btn{
+	padding: 8px 40px 8px 40px;
+	font-size:18px;
+	background: #f43499;
+	color: white;
+	border-radius:5%;
+	border:none;
+	margin: 60px 0 0 550px;
+	cursor: pointer;	
+}
+/*----------------------------------------
+评星
+------------------------------------------*/
+
+.star{
+	float:left;
+	margin-top:20px;
+	
+}
+.length{
+	display:inline;
+
+}
+.img{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.lengImg{
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+}
+
+
+
+#star-text{
+
+  font-size:14px;
+  color:#b0b0b0;
+  position: relative;
+  left:20px;
+  top:28px;
+}
+.formControls{
+	width:20px;
+	height:40px;
+}
+.input-file{
+	width:250px;
+	height:30px;
+}
+
+

@@ -1,0 +1,46 @@
+8
+
+dir
+18
+https://iversen:8443/svn/dangdang/WebRoot/WEB-INF
+https://iversen:8443/svn/dangdang
+
+
+
+2017-06-03T01:43:15.461860Z
+5
+ljz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8b7a794f-a19c-2348-86e7-2e6947c15d77
+
+classes
+dir
+
+lib
+dir
+
+web.xml
+file
+25
+
+
+
+2017-06-05T00:42:12.650000Z
+370a46d3d126c9e2dd9c829bd0a46245
+2017-06-05T01:11:55.107724Z
+25
+youngboy
+

@@ -1,0 +1,166 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>添加分类</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<style type="text/css">
+	    #cTree{
+	       width:30%;
+	       float:left;
+	       padding:30px;
+	    }
+	    
+	    #addPanel{
+	       width:50%;
+	       float:left;
+	       margin-left:50px;
+	       padding-left:50px;
+	       padding-top:30px;
+	       border-left:1px solid red;
+	    }
+	    
+	    #ff info{
+	       text-align:left;
+	    }
+	    
+	    #sub{
+	       background-color: #5a98de;
+           cursor: pointer;
+		   text-align: center;
+		   font-weight: bold;
+		   font-size: 14px;
+		   width:70px;
+           height: 31px;
+           border-radius: 4px;
+           color:white;
+	    
+	    }
+	    
+	    #sub:hover{
+	       background:#6287AF;
+	    }
+	    
+	   
+	
+	
+	</style>
+	<link id="easyuiTheme" rel="stylesheet" type="text/css"
+	href="adminjsps/admin/js/jquery-easyui-1.3.6/themes/metro/easyui.css" />
+    <link rel="stylesheet" type="text/css"
+	href="adminjsps/admin/js/jquery-easyui-1.3.6/themes/icon.css" />
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/jquery.min.js"></script>
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/jquery.easyui.min.js"></script>
+    <script type="text/javascript"
+	src="adminjsps/admin/js/jquery-easyui-1.3.6/locale/easyui-lang-zh_CN.js"></script>
+	<script type="text/javascript" src="adminjsps/admin/js/layer/layer.js"></script>
+    <script type="text/javascript">
+         $(function(){
+             $('#cc').combotree({    
+			     url: 'admin/CategoryController?biz=findByPid',
+			     editable : false,
+			     missingMessage : '请选择父分类!',
+			     valueField : 'id'
+			 });  
+             
+             $('#tt').tree({    
+			    url: "admin/CategoryController?biz=findByPid",    
+			 });  
+			 
+			 //被选择添加的分类ID
+			 $('#ff').form({    
+			    url:"admin/CategoryController",    
+			    onSubmit: function(param){    
+			        param.biz="add";
+			    },    
+			    success:function(data){    
+			        //解析json字符串
+			        var obj = JSON.parse(data);
+			        if(obj.status=="success"){
+			           //添加成功  提示用户添加成功   
+			           layer.msg('添加成功', {icon: 6,offset: (window.innerHeight-30)/2}); 
+			           //重新加载combotree的数据节点
+			           $('#cc').combotree("reload","admin/CategoryController?biz=findByPid");
+			           //重新刷新左边树的节点
+			           $("#tt").tree("reload");
+			           //清空表单
+			           $('#ff').form("reset");
+			           
+			        }else{
+			           //添加失败  提示用户添加失败
+			           layer.msg('添加失败', {icon: 5});
+			           
+			        }
+			        
+			            
+			    }    
+			 });
+
+             $("sub").click(function(){
+                 $("ff").submit();
+             });
+             
+         
+         
+         });
+    
+    
+    </script>
+    
+    
+  </head>
+  
+  <body>
+     
+     <div id="cTree">
+        <ul id="tt"></ul>
+     </div>
+     
+     <div id="addPanel">
+     <form id="ff" method="post">   
+	    <table id="info" cellpadding="10" border="0" cellspacing="0">
+	        <tr>
+	           <td><label for="name">分类名:</label></td>
+	           <td><input class="easyui-validatebox" type="text" name="categoryName" data-options="required:false" /></td>
+	        </tr>
+	        <tr>
+	           <td><label>父分类:</label></td>
+	           <td><input id="cc" name="parentId"/></td>
+	        </tr>
+	        <tr>
+	           <td><label for="email">描述:</label></td>
+	           <td><textarea rows="5" cols="30" name="desc"></textarea></td>
+	        </tr>
+	        <tr>
+	           <td></td>
+	           <td><button id="sub">提交</button></td>
+	        </tr>
+	    
+	    
+	    </table>
+	    
+	    
+     </form>  
+
+         
+     
+     </div>
+    
+    
+    
+  </body>
+</html>

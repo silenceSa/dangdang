@@ -1,0 +1,891 @@
+/*---------------------------------------
+	设置整个页面的宽度和高度
+------------------------------------------*/
+body{
+	width: 100%;
+	padding: 0px;
+	margin: 0px; 
+}
+/*	浮动在线客服	*/
+.float{
+	width: 40px;
+	height: 40px;
+	border: 1px  solid #E8E8E8;
+	text-align: center;
+	position: fixed;
+	top: 600px;
+	right: 110px;
+	border-radius:10%;
+}
+.floatOnline{
+	width: 11px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  -2186px -4910px;
+	margin-top: 6px;
+}
+
+/*---------------------------
+	设置头部的样式
+------------------------------*/
+#header{
+	width: 100%;
+	height: 15%;
+}
+/*	头部上部分	*/
+.h_top{
+	width: 100%;
+	height: 80%;
+	border-bottom: 2px solid #f3168a;
+}
+/*	头部上部分控制	*/
+.h_propmt{
+	width: 63%;
+	height: 100%;
+	margin: auto;
+}
+/*	唯品会logo图片	*/
+.logo{
+	float: left;
+	padding: 16px 0 12px;
+	height: 70%;
+}
+.logo .logo-link {
+    display: block;
+    line-height: 999999px;
+    background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+    background-position: -462px -145px;
+    width: 121px;
+    height: 50px;
+    overflow: hidden;
+}
+/*	头部右边的样式	*/
+.h_right{
+	width: 70%;
+	height: 100%;
+	float:right;
+}
+/*	头部右边样式	*/
+.h_right_top{
+	width: 100%;
+	height: 40%;
+	float: right;
+}
+/*	用户介绍	*/
+.cusPresent{
+	width: 50%;
+	height: 100%;
+	font-size:12px;
+	color:grey;
+	float: left;
+}
+/*	等级金牌图片	*/
+.member-level{
+	width: 20px;
+    height: 21px;
+	display: inline-block;
+	background-image: url("../../images/cart/comm_level-hash-854a646a.png?0b970682");
+	background-position: -450px -150px;
+	line-height: 9999em;
+	margin-right: 6px;
+}
+/*	客服电话	*/
+.servePhone{
+	width: 16%;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	color:gray;
+	margin-right: 12px;
+}
+.h_phone_img{
+	width: 13px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -3027px -1163px;
+	line-height: 9999em;
+	margin-top: 6px;
+}
+.h_phone{
+	width: 79%;
+	height: 50%;
+	margin-top: 8px;
+	float: right;
+}
+/*	在线客服	*/
+.online{
+	width: 11.4%;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	color:gray;
+}
+.onling_img{
+	width: 11px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  -2186px -4910px;
+	line-height: 9999em;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+/*	鼠标移上后的在线客服图片	*/
+.mouseover_img{
+	width: 11px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  -2201px -4910px;
+	line-height: 9999em;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+/*	会员服务	*/
+.vipServe{
+	width: 16%;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	color:gray;
+	}
+.vip_img{
+	width: 13px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -2998px -1144px; 
+	line-height: 9999em;
+	margin-right:6px;
+	margin-top: 2px;
+}
+.vip_img_later{
+	width: 13px;
+    height: 10px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -2895px -1183px;
+	line-height: 9999em;
+	margin-right:6px;
+	margin-top: 9px;
+	float: right;
+}
+/*	鼠标移上后出现的提示  	隐藏的div*/
+.none_vipServe{
+	width: 120px;
+	border: 1px solid #cbcaca;
+	border-top: none;
+	background: white;
+	display: none;
+	position: absolute;
+	top:30px;
+}
+.small_none{
+	width: 120px;
+	height: 28px;
+	border:1px solid #cbcaca;
+	position: absolute;
+	top:1px;
+	border-bottom: none;
+	display: none;
+}
+.none_vipServe li{
+	list-style-type: none;
+}
+/*	鼠标移上后的图片	*/
+.mouseover_vip_img{
+	width: 13px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -3018px -1144px; 
+	line-height: 9999em;
+	margin-right:6px;
+	margin-top: 2px;
+}
+.mouseover_vip_img_later{
+	width: 13px;
+    height: 10px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: /* -2895px -1183px; */-2895px -1183px;
+	line-height: 9999em;
+	margin-right:6px;
+	margin-top: 12px;
+	float: right;
+	transform: rotate(180deg);
+}
+
+/*	分割头部的线	*/
+.interval{
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background-color: #b3b3b3;
+	margin-top: 9px;
+	margin-right:12px;
+	float: left;
+}
+
+/*	头部左边下部分	*/
+.h_right_down{
+	width: 74%;
+	height: 40%;
+	float:right;
+	line-height: 24px;
+}
+/*	头部下部控制	*/
+.down_prompt li{
+	list-style-type: none;
+	text-decoration: inherit;
+}
+.helper_small_item{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 7px;
+}
+.down_img_prompt{
+	margin-right: 10px;
+	float: left;
+}
+.down_font_prompt{
+	width: 100px;
+	height:50%;
+	font-size:13px;
+	float:left;
+}
+
+/*-------------------------
+	主体部分样式
+-------------------------------*/
+#body{
+	width: 100%;
+	border-bottom: 2px solid #E8E8E8;
+}
+
+/*	当购物车为空时出现	*/
+.b_prompt{
+	width: 70%;
+	margin:auto;
+}
+/*	对购物车是空时的上部分的控制	*/
+.prompt_top{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+}
+/*	对于主体图片的显示	*/
+.b_img{
+	width: 110px;
+    height: 150px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-cart.png");
+	background-position: -160px -1px;
+	margin-left: 120px;
+	margin-top: 50px;
+	float: left;
+	margin-right: 30px;
+}
+/*	对显示部分样式	*/
+.b_show{
+	width: 30%;
+	font-size: 18px;
+	float: left;
+	margin-top: 60px;
+	line-height: 30px;
+}
+/*	对两个超链接设置样式	*/
+.install{
+	text-decoration: none;
+	padding:5px;
+	border-radius:5%;
+}
+.a_prompt{
+	width: 200px;
+	margin-top: 12px;
+}
+
+ /*	商品超时提示	*/
+.overtime{
+	width: 100%;
+	margin: auto;
+	display: none;
+}
+.overtime-icon-prompt{
+	width: 28%;
+	height: 150px;
+	margin: auto;
+}
+/*	超时提示图片	*/
+.overtime-img{
+	width: 120px;
+	height: 120px;
+	background-image: url("../../images/cart/sprites-hash-cart.png");
+	background-position: 0 -155px;
+	float: left;
+	margin-top: 15px;
+}
+/*	商品超时的提示	*/
+.overtime-prompt{
+	width: 268px;
+	float: left;
+	margin-left: 30px;
+}
+/*	图片	*/
+.quiz-help{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 5px;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  -2831px -1164px;
+}
+/*	一键添加购物袋	*/
+.addCart{
+	width: 140px;
+	height: 30px;
+	background: #f10180;
+	margin-top: 14px;
+	border: none;
+	border-radius: 5%;
+	color:white;
+}
+
+/*	购物超时提示	*/
+#overTime{
+	width: 96%;
+	height: 25px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+/*	放置购物超市计时器的块	*/
+.channel-tips-cnt{
+	width: 80%;
+	height: 100%;
+}
+.shopping-tips-text{
+	width: 80%;
+	height: 100%;
+	margin-top: 5px;
+	color: #666;
+	float: left;
+}
+
+
+
+
+
+/*	购物车中的商品	*/
+.order{
+	width: 65%;
+	margin: auto;
+}
+/*	商品购买提示	*/
+.o_header{
+	width: 60%;
+	height:90px;
+	margin: auto;
+	margin-top: 50px;
+}
+/*	购物过程提示	*/
+.flow-step-cart{
+	width: 100px;
+	height: 80px;
+	float: left;
+}
+/*	购物过程提示的提示图片	*/
+.flow-step{
+	width: 100px;
+	height: 65px;
+}
+/*	为购物提示过程添加上图片	*/
+.flow-img-one{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -468px -290px;
+	width: 100px;
+	height: 50px;
+}
+.flow-img-two{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -462px -199px;
+	width: 100px;
+	height: 50px;
+}
+.flow-img-three{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -364px -290px;
+	width: 100px;
+	height: 50px;
+}
+/*	提示连接线	*/
+.flow-step-line{
+	width: 151px;
+	height: 10px;
+	float: left;
+}
+/*	为提示连接线添加图片	*/
+.line-one{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -306px -199px;
+	width: 150px;
+	height: 50px;
+}
+.line-two{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  0 -290px;
+	width: 150px;
+	height: 50px;
+}
+
+/*	购物车商品	*/
+.o_main{
+	width: 100%;
+	margin: auto;
+}
+/*	购物车头的提示栏	*/
+.order-hd{
+	width: 96%;
+	margin: auto;
+	border: 1px solid #E8E8E8;
+	border-left: 2px solid #f10180;
+}
+.m-inline-block{
+	width: 100%;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	margin-top: 7px;
+}
+.m-inline-block li{
+	display: inline;
+}
+/*	操作栏	*/
+.product-item-title{
+	color:#f10180;
+	margin: 12px;
+	margin-right: 120px;
+	padding-right: 150px;
+}
+.text{
+	margin: 65px;
+	font-size: 12px;
+}
+
+
+/*	购物车商品	*/
+.cart-product{
+	width: 96%;
+	margin: 0 auto;
+	border: 1px solid #E8E8E8;
+	border-top: none;
+	/* margin-bottom: 40px; */
+}
+.cart-product li{
+	display: inline;
+}
+/*	对于购物车商品条目的设置	*/
+.product-item-special{
+	width: 300px;
+	margin: 5px;
+	margin-right: 60px;
+	padding: 0 0 12px 0;
+	font-size: 12px;
+}
+.product-item{
+	width: 92px;
+	text-align: center;
+	padding: 0 0 12px 0;
+	margin-right: 62px;
+	font-size: 12px;
+}
+
+/*	为删除添加图片	*/
+.product-delect-top{
+	width: 18px;
+    height: 5px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-cart.png");
+	background-position: 20px -60px;   /*鼠标移上时 20px -66px*/
+}
+.product-delect-down{
+	width: 18px;
+    height: 13px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-cart.png");
+	background-position: 26px -43px/* /鼠标移上后的 36px -61px */;
+}
+/*	对于购物车中购物数量条目的设置	*/
+.subNum{
+	background: #F0f0f0;
+	border: 1px solid #E8E8E8;
+	font-size: 14px;
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: 3px 0 0 0;
+}
+.num{
+	border: 1px solid #E8E8E8;
+	font-size: 14px;
+	padding: 4px 10px 3px 10px;
+}
+.addNum{
+	background: #F0f0f0;
+	border: 1px solid #E8E8E8;
+	font-size: 14px;
+	cursor: pointer;
+	width: 30px;
+	height: 25px;
+	margin: 2px 0 0 0;
+}
+/*	运费提示	*/
+.freight{
+	width: 96%;
+	height: 40px;
+	border: 1px solid #E8E8E8;
+	margin: auto;
+	margin-bottom: 46px;
+	border-top: none;
+	font-size: 14px;
+	color: #666;
+}
+.freight div{
+	margin: 0 0 0 15px;
+}
+.freight a{
+	padding: 1px 3px 1px 3px;
+	background: #f93;
+	border-radius:5%;
+	margin-right: 7px;
+	color: white;
+}
+
+/*	优惠提示	*/
+.preferential{
+	width: 96%;
+	margin: auto;
+	border: 1px solid #e2e1e1;
+	border-bottom: none;
+}
+/*	优惠提示的两边	*/
+.left{
+	width: 30%;
+	margin-top: 30px;
+}
+.right{
+	width: 30%;
+	position: relative;
+	left: 690px;
+	bottom: 80px;
+}
+
+/*	优惠券使用的提示	*/
+.ticket{
+	width:130px;
+	height: 25px;
+	border: 1px solid #f10180;
+	border-radius: 5%;
+	margin: 12px;
+}
+.case{
+	width: 90%;
+	color: #f10180;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.preferential-img{
+	width: 10px;
+    height: 9px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -2870px -1186px;
+}
+/*	使用优惠券被点击时出现	*/
+.hide{
+	width: 100%;
+	height: 200px;
+	background: #F0F0F0;
+	border:1px solid #e2e1e1;
+	margin: auto;
+	border-top-color:#cccbcb; 
+	display: none;
+}
+.hide-one{
+	width: 96%;
+	height: 170px;
+	border: 1px solid #E0E0E0;
+	margin: 15px 0 0 20px;
+	background: #f8f8f8;
+}
+.hide-prompt{
+	width: 60%;
+	margin: 30px 0 0 150px;
+	margin-top: 50px;
+}
+.vip-item-prompt{
+	width: 20%;
+}
+.vip-hide{
+	width: 90px;
+	height: 90px;
+	background-image: url("../../images/cart/sprites-hash-cart.png");
+	background-position: -122 -155px;
+	float: left;
+	margin: 45px;
+	margin-right: 30px;
+	margin-left: 80px;
+}
+.activation-item{
+	width: 90%;
+	margin-left: 20px;
+}
+.activation-a{
+	background: #d0d0d0;
+	color: #999;
+	padding: 6px;
+	border-radius:5%;
+}
+
+/*	结算按钮总计的样式	*/
+.total-item{
+	width: 96%;
+	height: 48px;
+	margin: auto;
+	background: #f3f3f3;
+	border: 1px solid #e2e1e1;
+}
+/*	结算提示条目	*/
+.balance-item{
+	width: 200px;
+	float: right;
+	height: 30px;
+	font-size: 15px;
+	color:gray;
+	margin-top: 14px;
+}
+.prompt{
+	width: 17px;
+    height: 19px;
+	display: inline-block;
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position: -2832px -1164px;
+	line-height: 9999em;
+}
+/*	结算	*/
+.balance{
+	text-decoration: none;
+	padding:13px;
+	background: #f43499;
+	color:white;
+	float: right;
+	width: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+.product-overTime li{
+	list-style-type: disc;
+	font-size: 14px;
+	display: none;
+	color:black;
+	width: 300px;
+	height: 50px;
+}
+
+
+
+
+/*	购物车商品底部	*/
+.o_footer{
+	width: 100%;
+	height: 200px;
+}
+/*	购物车商品底部	*/
+.icon-contain{
+	float:left;
+	height:115px;
+	width:275px;
+	padding: 12px;
+	margin: 25px 10px 0 30px;
+}
+/*	购物车商品底部提示图片	*/
+.authentic-tiem{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  0 -145px;
+}
+.return-item{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  0 0;
+}
+.courier-charge-item{
+	background-image: url("../../images/cart/sprites-hash-a80f872a.png");
+	background-position:  -306px 0;
+}
+
+/*-------------------------
+	底部样式
+---------------------------*/
+#footer{
+	width: 100%;
+	height: 30%;
+}
+/*	对于底部的控制	*/
+.f_prompt{
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+}
+/*	底部上部分	*/
+.f_prompt_top{
+	width: 100%;
+	height: 15%;
+	margin: auto;
+	line-height: 34px;
+}
+.f_top_show{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #d7237e;
+	margin: auto;
+	color:white;
+}
+/*	头部中间部分	*/
+.f_propmt_centre{
+	width: 100%;
+	height: 40%;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+	color:gray;
+}
+
+/*	底部下部分	*/
+.f_prompt_down{
+	width: 100%;
+	height: 20%;
+	margin: auto;
+}
+.prompt_img{
+	width: 71%;
+	height: 100%;
+	margin: auto;	
+}
+
+.f_pic_icon01{
+	width: 105px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -1px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon02{
+	width: 100px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -150px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon03{
+	width: 65px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -200px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon04{
+	width: 70px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -250px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon05{
+	width: 76px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -300px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon06{
+	width: 75px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -400px;
+	float: left;
+	margin-right: 30px;
+}
+.f_pic_icon07{
+	width: 75px;
+    height: 100%;
+	display: inline-block;
+	background-image: url("../../images/cart/footer.png");
+	background-position: 110px -450px;
+	float: left;
+	margin-right: 30px;
+}
+
+
+/*	对于标签进行设置	*/
+.h_right_top a{
+	text-decoration: none;
+	color:gray;
+}
+.h_right_top a:hover{
+	color:black;
+}
+
+.f_top_show a{
+	text-decoration: none;
+	color:white;
+}
+.f_top_show a:hover{
+	color:#C8C8C8;
+}
+
+.f_propmt_centre a{
+	color: gray;
+}
+.f_propmt_centre a:hover{
+	color:red;
+}
+.product-item-special a:hover{
+	color:#f10180;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+input{
+	width: 230px;
+	height: 35px;
+	color:gray;
+	border-radius:5%;
+	border: none;
+	border: 1px solid #b2b2b2;
+}
+
+
+
+
+
+
+
+
+

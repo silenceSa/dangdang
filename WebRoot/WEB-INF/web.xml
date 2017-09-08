@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  
+  <filter>
+      <filter-name>EncodingFilter</filter-name>
+      <filter-class>com.yidu.dangdang.filter.EncodingFilter</filter-class>
+      <init-param>
+          <param-name>encoding</param-name>
+          <param-value>UTF-8</param-value>
+      </init-param>
+  </filter>
+  
+  <filter>
+      <filter-name>AdminFilter</filter-name>
+      <filter-class>com.yidu.dangdang.filter.AdminFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+      <filter-name>AdminFilter</filter-name>
+      <url-pattern>/adminjsps/admin/admin.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter-mapping>
+      <filter-name>EncodingFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>CustomerController</servlet-name>
+    <servlet-class>com.yidu.dangdang.customer.controller.CustomerController</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>CategoryController</servlet-name>
+    <servlet-class>com.yidu.dangdang.category.controller.CategoryController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.util.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentController</servlet-name>
+    <servlet-class>com.yidu.dangdang.comment.controller.CommentController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminController</servlet-name>
+    <servlet-class>com.yidu.dangdang.admin.controller.AdminController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderController</servlet-name>
+    <servlet-class>com.yidu.dangdang.order.controller.OrderController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProductController</servlet-name>
+    <servlet-class>com.yidu.dangdang.product.controller.ProductController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.customer.controller.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.category.controller.CategoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.product.controller.ProductServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.comment.controller.CommentServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>CartController</servlet-name>
+    <servlet-class>com.yidu.dangdang.cart.cartController.CartController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.order.controller.OrderServlet</servlet-class>
+  </servlet>
+  
+    
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CartController</servlet-name>
+    <url-pattern>/CartController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>ProductController</servlet-name>
+    <url-pattern>/ProductController</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CustomerController</servlet-name>
+    <url-pattern>/CustomerController</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderController</servlet-name>
+    <url-pattern>/admin/OrderController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CategoryController</servlet-name>
+    <url-pattern>/admin/CategoryController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentController</servlet-name>
+    <url-pattern>/admin/CommentController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminController</servlet-name>
+    <url-pattern>/admin/AdminController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+
+</web-app>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  
+  <filter>
+      <filter-name>EncodingFilter</filter-name>
+      <filter-class>com.yidu.dangdang.filter.EncodingFilter</filter-class>
+      <init-param>
+          <param-name>encoding</param-name>
+          <param-value>UTF-8</param-value>
+      </init-param>
+  </filter>
+  
+  <filter-mapping>
+      <filter-name>EncodingFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+   <servlet>
+    <servlet-name>CustomerController</servlet-name>
+    <servlet-class>com.yidu.dangdang.customer.controller.CustomerController</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>CategoryController</servlet-name>
+    <servlet-class>com.yidu.dangdang.category.controller.CategoryController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>com.yidu.dangdang.util.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentController</servlet-name>
+    <servlet-class>com.yidu.dangdang.comment.controller.CommentController</servlet-class>
+  </servlet>
+
+
+<servlet-mapping>
+    <servlet-name>CustomerController</servlet-name>
+    <url-pattern>/CustomerController</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CategoryController</servlet-name>
+    <url-pattern>/admin/CategoryController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentController</servlet-name>
+    <url-pattern>/admin/CommentController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+
+</web-app>

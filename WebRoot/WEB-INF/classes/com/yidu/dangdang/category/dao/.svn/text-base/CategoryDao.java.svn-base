@@ -1,0 +1,70 @@
+package com.yidu.dangdang.category.dao;
+
+import java.util.List;
+
+import com.yidu.dangdang.category.domain.Category;
+
+
+/**
+ * 分类DAO接口
+ * @author youngboy
+ * @since 2017/5/30
+ */
+public interface CategoryDao {
+
+	/**
+	 * 移除分类的方法
+	 * @param categoryId  分类ID
+	 * @return 影响的行数
+	 */
+	public abstract int removeCategory(String categoryId);
+	
+	
+	
+	/**
+	 * 修改分类
+	 * @param category  分类对象
+	 * @return  影响的行数
+	 */
+	public abstract int updateCategory(Category category);
+	
+	
+	
+	/**
+	 * 添加分类
+	 * @param category  分类对象
+	 * @return 影响的行数
+	 */
+	public abstract int addCategory(Category category);
+	
+	
+	
+	/**
+	 * 查询所有的分类
+	 * @return 分类集合
+	 */
+	public abstract List<Category> findAll();
+	
+	
+	
+	/**
+	 * 根据父类ID查询所有的子分类
+	 * @param parentId 父类ID
+	 * @return 父类集合
+	 */
+	 public abstract List<Category> findCategories(String parentId);
+	 
+	 
+	 /**
+	  * 判断是否有子类
+	  * @param categoryId 父类ID
+	  * @return true|false
+	  */
+	 public abstract boolean hasChildren(String categoryId);
+
+
+
+	public abstract List<Category> findCateByLevel(String level, String cateName);
+	
+	
+}

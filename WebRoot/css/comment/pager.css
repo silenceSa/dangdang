@@ -1,0 +1,85 @@
+.bold {
+	font-weight: 900;
+}
+a{
+	text-decoration:none;
+}
+
+.divBody {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.divContent {
+	line-height: 35px;
+	margin-right: 15px;
+}
+
+.spanBtnSelect {
+	border: 1px solid #F10180;
+	color: #FFFFFF;
+	background-color: #F10180;
+	text-align: center;
+	padding: 4px 8px 4px 8px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.aBtn {
+	border: 1px solid #c1c1c1;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #555555;
+	padding: 4px 8px 4px 8px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.spanBtnDisabled {
+	border: 1px solid #c1c1c1;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #c1c1c1;
+	padding: 4px 8px 4px 8px;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.spanApostrophe {
+	font-family: Arial;
+}
+
+.aBtn:HOVER {
+	color: #FFFFFF;
+}
+
+.inputPagecode {
+	border: 1px solid #c1c1c1;
+	width: 25px;
+	padding: 0px;
+}
+
+.aSubmit {
+	border: 1px solid #c1c1c1;
+	padding: 1px 4px 1px 4px;
+	color: #555555;
+	text-decoration: none;
+}
+
+.aSubmit:HOVER {
+	border: 1px solid #c1c1c1;
+	padding: 1px 4px 1px 4px;
+	color: #555555;
+}
+.vipFont {
+    font-family: vipFont;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+}
+#font{
+	font-size:18px;
+	color:#555555;
+}

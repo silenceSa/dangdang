@@ -1,0 +1,126 @@
+<table style="margin:0 auto;" width="700" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td bgcolor="#FCFAFD" align="center">
+<table width="700" cellspacing="0" cellpadding="0" border="0" bgcolor="#FCFAFD">
+<tbody><tr>
+<td valign="middle" height="40" bgcolor="#efeaf1" align="center">
+<span style="font-size:12px; color:#666;">为了能正常收到邮件，请将
+</span>
+<a style="color:#d50080; font-size:12px; text-decoration:none;" target="_blank">service@crm.vipshop.com</a>
+<span style="font-size:12px; color:#666;">添加到通讯录。</span>
+<a style="color:#d50080; font-size:12px; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuxRAs2JmpnpXEq3HZIInRGZOVSvZpJWsjniwo66xZJ%2F6ciPYIuohRL4C4ZgXnRMeQYP%2B6QKoaJSOZ8tc%2B70jw2SzviTi6WM3p4AM66D0vNwqg%3D%3D" target="_blank"></a>
+</td>
+</tr>
+<tr>
+<td valign="top" height="100" bgcolor="#fcfafd" align="center">
+<table style="border-bottom:2px #f23a9a solid" width="650" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td width="325" valign="bottom" height="90">
+<a href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzMb4bUxZ5Ck06qXo99EFyKE6ULCMnx98hmzEcjJkzwure1zTxEBeFVAMtxmasM1UIZjdFbXMHpyUlpkI1fPW0S" target="_blank">
+<img style="border:0" src="http://a.vpimg4.com/upload/actpics/act/common/i/plogo_01.png" width="325" height="80">
+</a>
+</td>
+<td valign="top">
+<table width="323" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td valign="top" height="51">
+<img style="border:0" src="http://a.vpimg2.com/upload/actpics/bi/edm/2015/01/16/logo2.jpg">
+</td>
+</tr>
+<tr>
+<td valign="top" height="30" align="left">
+<table style="background:#d50080" width="323" cellspacing="0" cellpadding="0" border="0" bgcolor="#d50080">
+<tbody><tr>
+<td height="30" align="center"><a style="color:#fff; font-size:12px; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuyjqavANFJM4aJmKNXzOmB%2FzAkwjkgNu7smpqeIC2mu3yFMMU8fVkHssZW0heoJKrX8XkwLd%2FXW6QapVEbQOrj8" target="_blank">美妆特卖</a></td>
+<td align="center"><a style="color:#fff; font-size:12px; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4Ruxsdy0UjDEkgYwlKSFviAmk77YLYbGlraCJgdYmLDRvn0kC%2FUwqqQo82xXMghUXlp8ZjdFbXMHpyUlpkI1fPW0S" target="_blank">亲子特卖</a></td>
+<td align="center"><a style="color:#fff; font-size:12px; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4Ruz%2BM%2FZFrSmFRI3YGP6KMXOMgmr%2BVXPUB2xhqmw%2FJzH7aq0x6nTgM9I5AgGgzEHT0RrRo1Rv1p1554guyKZTD15x" target="_blank">居家特卖</a></td>
+<td align="center"><a style="color:#fff; font-size:12px; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzsQDNTid695207Q0UPM9KZe3LdEvT2CCkCX%2BDrZPemBma%2FZCgCm5BJxfkZv4myKYr8XkwLd%2FXW6QapVEbQOrj8" target="_blank">全球特卖</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table style="margin-bottom: 40px;" width="600" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td style="padding-top: 40px; padding-bottom: 10px;" valign="middle" align="left"><strong style="font-size: 12px; color: #333333;">尊敬的会员：</strong></td>
+</tr>
+<tr>
+<td valign="top" align="left"><p style="font-size: 12px; color: #333333; line-height: 24px;">
+您申请了唯品会邮箱验证注册，请确认邮箱地址：<span></span>。注册成功后该邮箱将会自动绑定您的唯品会帐号
+</p></td>
+</tr>
+<tr>
+<td valign="top" align="left"><a href="activeLink" target="_blank"><img src="http://a.vpimg4.com/upload/actpics/edm/12m/nq/btn_02.png" border="0"></a></td>
+</tr>
+<tr>
+<td valign="bottom" height="50" align="left"><span style="font-size: 12px; color: #333333;">您也可以点击下面的链接，完成邮箱验证：</span></td>
+</tr>
+<tr>
+<td valign="middle" height="27" align="left"><a href="activeLink" target="_blank" style="text-decoration: none; color: #f43499; font-size: 12px;">activeLink</a></td>
+</tr>
+<tr>
+<td valign="middle" height="27" align="left"><span style="font-size: 12px; color: #333333;">该邮件内容在发送后24小时之内有效，如已超过时限，请重新获取。</span></td>
+</tr>
+</tbody></table>
+<table style="font-size:12px;line-height:24px" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#efeaf1">
+<tbody><tr valign="middle" align="center">
+<td colspan="3" height="50" bgcolor="#FCFAFD"><table width="650" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td style="font-size:12px; color:#666666;" valign="middle" align="center">关注我们</td>
+<td width="22" valign="middle" align="center"><a href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzctRZmb%2B2IJicDh0LsOjvxStsuDjumuJ%2F3%2Bo6FayzqKRrEPSnhGyz3UILlNCldvuEDx9EygSkEx%2BX1TzPw%2BLQp" target="_blank"><img src="http://a.vpimg4.com/upload/actpics/edm/2014/3m/0304/sina_ico.png" border="0"></a></td>
+<td valign="middle" align="left"><a style="font-size:12px; color:#666666; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzctRZmb%2B2IJicDh0LsOjvxStsuDjumuJ%2F3%2Bo6FayzqKRrEPSnhGyz3UILlNCldvuEDx9EygSkEx%2BX1TzPw%2BLQp" target="_blank">@唯品会</a></td>
+<td width="22" valign="middle" align="center"><a href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuwXAgSF95HLPiPBZIUOG85c1NubTStatbw%2BOXpN77XwPi%2BsQGlv27K2nGjZKyQgnaunQYbvmf7d8xvAUTKPoVYM" target="_blank"><img src="http://a.vpimg4.com/upload/actpics/edm/2014/3m/0304/tx_ico.png" border="0"></a></td>
+<td valign="middle" align="left"><a style="font-size:12px; color:#666666; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuwXAgSF95HLPiPBZIUOG85c1NubTStatbw%2BOXpN77XwPi%2BsQGlv27K2nGjZKyQgnaunQYbvmf7d8xvAUTKPoVYM" target="_blank">@唯品会vip</a></td>
+<td width="22" valign="middle" align="center"><a href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzNqOE9nzAoWDPI%2F48A0nd%2B%2BSQhHp1vf9KCT%2FRbtXH4ZDNWKMuiGwPrKcQGzXULBQQH6GkMybkcCgiWSKGriHn0" target="_blank"><img src="http://a.vpimg4.com/upload/actpics/edm/2014/3m/0304/phone_ico.png" border="0"></a></td>
+<td valign="middle" align="left"><a style="font-size:12px; color:#666666; text-decoration:none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuzNqOE9nzAoWDPI%2F48A0nd%2B%2BSQhHp1vf9KCT%2FRbtXH4ZDNWKMuiGwPrKcQGzXULBQQH6GkMybkcCgiWSKGriHn0" target="_blank">手机唯品会</a></td>
+<td valign="middle" align="center"><a href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuwAPjDqKxCCPInunVFL6z4V%2B%2F0Lwochao8CtRKao0T2TV2flZW%2FO5NMNq6saXJHjadxA9FQA%2FHve%2F8Sisf%2FiL12mfpbwEEvACQP857EFDju1g%3D%3D" target="_blank"><img src="http://a.vpimg4.com/upload/actpics/edm/12m/v_rw/icon_04.png" width="57" height="29" border="0"></a></td>
+<td valign="middle" align="center"><img src="http://a.vpimg2.com/upload/actpics/act/2014/cora/20150326-mail-erweima.jpg" border="0"></td>
+</tr>
+<tr>
+<td style="line-height:0" height="10">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr valign="middle" bgcolor="#efeaf1" align="center">
+<td colspan="3" height="13"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr style="font-size:12px;line-height:24px;" bgcolor="#efeaf1">
+<td colspan="11" valign="middle" align="center">&nbsp;</td>
+</tr>
+<tr style="font-size:12px;line-height:24px;" bgcolor="#efeaf1">
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuwAPjDqKxCCPInunVFL6z4V%2B%2F0Lwochao8CtRKao0T2TQxXWCvwciTxbfW%2BOXAP%2FKVv340C4gXDsYGerOXugvMhuRqgRi6MC0Rw0kjIjOEMbA%3D%3D" target="_blank">正品保证</a></td>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuwpM3ivyb1qrC8%2BHCi4Q4aB4ywoLG1%2BN%2B8VHKb9F0fR8wtWjPujQ7cGrIMJavf3Lci11Gv1pLHmPJgG1CtgeuTs" target="_blank">积分好礼</a></td>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuxRAs2JmpnpXEq3HZIInRGZOVSvZpJWsjniwo66xZJ%2F6ciPYIuohRL4C4ZgXnRMeQa8SPmPoPxZGwwSWJaiONaLkbnmtqnv2NzvZp0qGbFqRiZ0812%2FB9eBrUQSXj3fJgFvb3fEvgza1w3SE96f%2FDMU" target="_blank">全国范围配送</a></td>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuxRAs2JmpnpXEq3HZIInRGZOVSvZpJWsjniwo66xZJ%2F6ciPYIuohRL4C4ZgXnRMeQa8SPmPoPxZGwwSWJaiONaLkbnmtqnv2NzvZp0qGbFqRiZ0812%2FB9eBrUQSXj3fJgFvb3fEvgza1w3SE96f%2FDMU" target="_blank">满288免运费</a></td>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuxRAs2JmpnpXEq3HZIInRGZOVSvZpJWsjniwo66xZJ%2F6ciPYIuohRL4C4ZgXnRMeQa8SPmPoPxZGwwSWJaiONaL16Zy5htL6icRC3%2FvrQcKgsCzCuRj6xT0lSVDD2kFfgueoYDWsC1w%2BmdUUfQ%2BTcIV" target="_blank">七天无理由退货</a></td>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center"><a style="color:#666666;text-decoration: none;" href="http://edm.vip.com/collect/report?wrapper=3Gq6ujwZDazfDLPcxWPeI5lyJVTLDjQ0t3g07jDHULIuqLWCLxdsaSnz9NigmcPlRlT508qhpSBRzlzlraXFoMD4fnOjihTFetE63Xl4RuxRAs2JmpnpXEq3HZIInRGZOVSvZpJWsjniwo66xZJ%2F6ciPYIuohRL4C4ZgXnRMeQaTx3QKlSQYUAcEEv96dk75AElcGKb9OA%2F19G%2F3jYr9%2BQ%3D%3D" target="_blank">多种付款方式</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr valign="middle" bgcolor="#efeaf1" align="center">
+<td style="line-height:20px" width="67%" valign="middle" height="30" align="right"><img src="http://a.vpimg4.com/upload/actpics/edm/2014/3m/0304/phone_n.png"></td>
+<td style="line-height:20px" width="1%" valign="middle" align="left"></td>
+<td style="line-height:20px" width="32%" valign="middle" align="left"></td>
+</tr>
+<tr style="color:#999" valign="middle" bgcolor="#efeaf1" align="center">
+<td colspan="3">Copyright ? <span style="border-bottom:1px dashed #ccc;z-index:1" t="7" onclick="return false;" data="2009-2015">2009-2015</span> vip.com All Right Reserved 唯品会公司 版权所有</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>

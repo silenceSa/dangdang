@@ -1,0 +1,61 @@
+8
+
+dir
+18
+https://iversen:8443/svn/dangdang/WebRoot
+https://iversen:8443/svn/dangdang
+
+
+
+2017-06-03T09:08:18.799951Z
+18
+youngboy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8b7a794f-a19c-2348-86e7-2e6947c15d77
+
+META-INF
+dir
+
+WEB-INF
+dir
+
+adminjsps
+dir
+
+css
+dir
+
+images
+dir
+
+index.jsp
+file
+
+
+
+
+2017-06-04T07:59:41.443000Z
+911206088f0a3525007f5aae90a539ed
+2017-06-02T03:38:20.277527Z
+1
+youngboy
+
+js
+dir
+
+jsps
+dir
+
